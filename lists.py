@@ -22,14 +22,14 @@ print(friends)
 friends.pop()
 print(friends)
 
-print(friends.index("Lucas"))
+print(friends.index("Lucas")) # posicao na lista
 
-print(friends.count("Gabriel"))
+print(friends.count("Gabriel")) # quantos tem na lista
 
-friends.sort()
+friends.sort() #ordem alfabetica// crescente
 print(friends)
 
-numList.reverse()
+numList.reverse() #decrescente 
 print(numList)
 
 friends2 = friends.copy()
